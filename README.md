@@ -7,4 +7,4 @@
 * 添付画像ではユーザのユニークID(auc_user_id)の取得をしているがこれには含まれていない
 * 全ページに適用するcssはstyle.css
 * ページを限定してcssを適用したいcssはscript.jsに書いている 出品中、終了分、ウォッチリストが共通レイアウトになっているので、影響範囲が大きい url毎に条件分岐して書いたほうがいいかも
-<img width="1322" height="497" alt="518946159-25e9af94-9c4a-48e8-9957-889cc5fcb002" src="https://github.com/user-attachments/assets/950328ee-e184-4557-a70b-eea46ddfc292" />
+<img width="1322" height="497" alt="518946159-25e9af94-9c4a-48e8-9957-889cc5fcb002" src="https://github.com/user-attachments/assets/e3d9a6f9-953a-424c-8628-8c898b8921de" />
