@@ -1,0 +1,11 @@
+{
+"name": "ヤフオク管理画面",
+"description": "ヤフオク管理画面",
+"version": "1.0.0",
+"content_scripts": [{
+	"js": ["js/jquery-3.2.1.min.js", "js/script.js", "js/nav.js"],
+	"css": ["css/style.css","css/nav.css","css/dashicons.css","css/admin-bar.min.css"],
+	"matches": ["https://*.yahoo.co.jp/*", "https://*.yahoo-net.jp/"]
+}],
+"manifest_version": 3
+}

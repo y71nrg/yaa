@@ -1,0 +1,137 @@
+@charset "utf-8";
+body, input, textarea {
+    font-family: sans-serif !important;
+}
+/*a {
+    color: blue !important;
+}
+a:visited {
+    color: purple !important;
+}*/
+.hide, .yjmthproplogoarea,#header .logo, #acWrFooter address, #acWrFooter .libSupple, .decGuideLink, .libPropertyLink,
+#acMdMobileBox, .libLinkGrayM, *[href="https://auctions.yahoo.co.jp/"],#hideLRECState,#acMdPromo1,#acMdAdLrecArea, .modAdSpn, .js-modal-cover,/*#libPointNavi,*/#acMdImBox,#modSsBox,#acMdReuse,#couponUrl,.untHead__wrap a,
+.ptsPoint,
+*[href="https://www.yahoo.co.jp"],
+*[href="https://www.yahoo.co.jp/"],
+*[href="https://auctions.yahoo.co.jp"],
+*[href="https://auctions.yahoo.co.jp/"],
+*[href="https://auctions.yahoo.co.jp/jp"],
+*[href="https://auctions.yahoo.co.jp/jp/"],
+*[href="https://auctions.yahoo.co.jp/jp/show/entry_navi"],
+*[href="https://www.yahoo-help.jp/app/home/p/353/"],
+*[href="https://auctions.yahoo.co.jp/guide/guide/"],
+*[href="https://paypayfleamarket.yahoo.co.jp/"],
+*[href="https://shopping.yahoo.co.jp/"],
+*[href="https://auctions.yahoo.co.jp/sell/jp/show/updateauction"],
+img[src="https://s.yimg.jp/i/jp/mb/top/beginner.gif"],
+ #acWrFooter, #Footer, #mastHead,
+ #acMdMainFunction, .Carousel,
+ #acWrContents table td img[alt="評価"],
+ #acWrContents table td br,
+ #mhd_text_pc, #msthdtp,#msthdPointNum,
+ #msthdUserIcon, #msthdUserIconImg,#mhd_premium_pc,
+#yjSearchPop, *[href*="yjSearchPop"], .DirectionPayPay,[href^="https://search.yahoo.co.jp/search"], *[src="s.yimg.jp/images/search/slink/popup/pc/1.0.0/img/pop_spr_02.png"],
+img[src="https://s.yimg.jp/images/auct/template/myauction/bnr_feature.png"],
+img[src="https://s.yimg.jp/images/auct/front/images/addcal.gif"],
+img[src="https://s.yimg.jp/images/auct/template/myauction/bt_feature.png"],
+#ads,.ads,#themeBtnBox,#yregft,.StatisticsInfo__button,.StatisticsInfo__text,.l-footer address,.descriptionArea__header, #deliverymethod .Title__search a, .StepNavi,#YadsOverlayArea,.elTreasureBox, #draft_save,
+.BrandLink,#So4,
+*[id*="promo"],*[id*="ads"],*[id*="Layer"],*[id*="irfroh"],
+*[class*="promo"],*[class*="ads"],*[class*="Layer"],*[class*="irfroh"],*[class*="paypay"],[class*="PayPay"],
+*[src*="promo"],*[src*="paypay"],
+*[href*="paypay.yahoo.co.jp"], *[alt*="PayPay"], *[href*="points"],
+*[src*="bnr"], *[href*="mycar"],
+/* *[src*="toto"], *[href*="toto"], */
+#js_brand_line_area, .CouponCrm, .ProductInformation__note, .SocialButton, #auc_detail_ymobile_pc, .js-multi-recommend, .ptsLinks, #officialDeliveryArea, .MyCar, #masthead .yjmthcmnlnkarea, .yjmthloginarea b, #js-ListingSwitchText, #js-PCPremiumAppealArea,
+#js-PCPremiumSalesmodeArea .Radio__label:nth-child(2), .js-recommend, .prMdl, #msthdLoginName, .TireSearch, .ptsCate, #sbnClearBtn2, .ctgry01, #srchAssistBd,#Sb_2,.StickyNavigation.is-sticky, .ExhibitFinishModal, #modLoanBox, .RecommendList, #emg, .decListNote, #ASn2v2, #js-catalog_area, #js_brand_api_error, .Product__detail .Product__otherInfo .u-floatL .Product__buttonWrap,
+*[alt*="本人確認"], *[src*="ekyc"], *[alt*="campaign"], *[src*="campaign"],*[href*="campaign"], #ultWrapperHeader .Note, #ultWrapperHeader div, #msthd, .FilterItem, #TEMPLA_MH_VDOM, *[id*="yads"], .yjAdLink, .ad, #bnr, .ChargeBtn, .waltzMd_bankText, .cm-Footer, #emg-v3,
+.decDrftSave .CheckBox,#auctionIm, #pageTop .Warning /*#plibLoadMdl*/,.js-lineoa-banner, .mhdBanner, #coupon, /*#modalArea, */#popularRecommend, .sc-77e76674-2, .sc-84a1a354-0, #auction_spn, #categoryList, .gv-Footer__serviceListWrap--jsp9fQfGBlCfRFwCZAK2, #guideLink, #guide, /*.gv-Stack--u0Jmo3VPNKDclxaV81yY li:nth-child(2),*/
+#closedRecommend, #winNowRecommend, #closedNotice p,#TEMPLA_EMG, #TEMPLA_EMG1, #TEMPLA_EMG_VDOM, #TEMPLA_EMG2_VDOM, #TEMPLA_EMG3_VDOM, #TEMPLA_MH_VDOM, #TEMPLA_MHCSS, .emg, .emg1, .emg2, .emg3, .EmgModule__earthquake, #lineAccountNotice, #footer, .offer-popup, div[aria-label="hint"], #ack, #rc, #prmod, .gv-l-headerInner--gmEJwcnBd6SrLgPqMmfH .eJmRbH, .hkzoOn svg {
+    visibility: hidden !important;
+    display: none !important;
+    height: 0 !important;
+    width: 0 !important;
+}
+
+/* 20251119- */
+.gSURkX {
+    width: 50px !important;
+    height: 50px !important;
+}
+#itm .gv-Stack--u0Jmo3VPNKDclxaV81yY {
+    display: flex !important;
+    flex-direction: row !important;
+}
+#itm .gv-Stack--vSpace2--GgiwvRx2nEyiz0lOF1fy>:not(style)+:not(style) {
+    margin-top: 0 !important;
+}
+@media (min-width: 1010px) {
+    #itm .crmlwx > :last-child {
+        align-self: auto !important;
+    }
+    #itm .cOLayr, #itm .yutKe {
+        padding: 0;
+    }
+}
+#itm .gv-Stack--alignStretch--C502kiIPA_E3E52eQjpb {
+    align-items: center;
+    height: 60px;
+}
+#itm .gv-u-fontWeightBold--sVSx7bUE6MAd26cg9XrB,
+#itm .gv-u-fontSize12--s5WnvVgDScOXPWU7Mgqd {
+    width: 80px;
+}
+#itm .cVNksB .cJqPwl {
+    width: 100px;
+}
+#itm .gv-u-fontWeightBold--sVSx7bUE6MAd26cg9XrB .gv-u-fontSize12--s5WnvVgDScOXPWU7Mgqd,
+#itm .gv-Stack--u0Jmo3VPNKDclxaV81yY .gv-u-fontSize12--s5WnvVgDScOXPWU7Mgqd:nth-child(3) {
+    display: inline !important;
+}
+#itm .gv-Card--uDxEvPl4of_XKZDma4LM {
+    width: 300px;
+}
+#itm .crmlwx {
+    width: 350px;
+}
+#itm .crmlwx ul .kmbOlL a{
+    overflow: hidden;
+    width: 100px;
+}
+#itm .gv-u-fontSize12--s5WnvVgDScOXPWU7Mgqd {
+    display: inline;
+    width: 60%;
+}
+#itm .userid {
+    font-size: 12px;
+    overflow: hidden;
+    width: 60px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#itm .yhDYa .gv-u-fontSize12--s5WnvVgDScOXPWU7Mgqd{
+    width: auto;
+}
+#itm .bNzzzU .gv-u-fontSize12--s5WnvVgDScOXPWU7Mgqd{
+    width: 00px;
+}
+
+#itm .bXJfEG .gv-u-fontSize12--s5WnvVgDScOXPWU7Mgqd {
+    text-align: right;
+}
+#itm .bNzzzU svg{
+    display: none;
+}
+#addwatch3 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+#addwatch3 img {
+    height: 1.25em !important;
+    width: auto;
+}
+#modalArea .gv-Modal__inner--PuqAueyiJIseOpYsaZCl {
+    top: 50vh !important;
+}
+/* /20251119- */
