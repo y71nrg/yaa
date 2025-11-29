@@ -110,4 +110,27 @@ if(document.URL.match("https://auctions.yahoo.co.jp/my/watchlist")) {
 if(document.URL.match("https://auctions.yahoo.co.jp/my/watchlist")) {
 	$('.gv-l-wrapper--responsive--qFnoPnxFTHSdyYj4nn_U .gv-l-sub--narrow--HpEw7z8HsI5wwgIlZCKm').hide();
 }
+
+// 送料連絡
+if(document.URL.match("trade/shipment")) {
+	$('.gv-l-header--x08n25swK4TimjnzPqsA').hide();
+	$('.gv-Heading__subText--RKglNoa8jINBx8YumIn8').hide();
+	$('#itm').css('visibility','hidden');
+	$(function(){
+		setTimeout(function(){
+			$('#itm').css('visibility','visible');
+			$('#itm .gv-Card--uDxEvPl4of_XKZDma4LM').css('width','auto');
+			$('#itm .gv-Card--uDxEvPl4of_XKZDma4LM').css('height','165px');
+			$('#itm .gv-Stack--alignStretch--C502kiIPA_E3E52eQjpb').css({'cssText': 'display: block !important;'});
+			$('#itm .gv-Stack--alignStretch--C502kiIPA_E3E52eQjpb').css({'cssText': 'height: auto !important;'});
+			$('#itm .gv-Stack--u0Jmo3VPNKDclxaV81yY:contains(商品情報)').css({'cssText': 'display: block !important;'});
+
+		},500);
+	});
+}
+// /送料連絡
+
+if(document.URL.match("https://auctions.yahoo.co.jp/my/watchlist")) {
+	$('.gv-l-wrapper--responsive--qFnoPnxFTHSdyYj4nn_U .gv-l-sub--narrow--HpEw7z8HsI5wwgIlZCKm').hide();
+}
 // /20251119-
